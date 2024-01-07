@@ -57,6 +57,7 @@ router.put('/:id', async (req, res) => {
     console.log(err);
     res.status(400).json(err);
 });
+});
 
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
